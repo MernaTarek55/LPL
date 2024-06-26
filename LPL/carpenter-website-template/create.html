@@ -50,6 +50,7 @@
                 <a href="index.html" class="nav-item nav-link text-white">Home</a>
                 <a href="about.html" class="nav-item nav-link text-white">About</a>
                 <a href="service.html" class="nav-item nav-link text-white">Service</a>
+                <a href="service.html" class="nav-item nav-link d-none">Log Out</a>
                
                 <!-- <div class="nav-item dropdown">
                    
@@ -75,8 +76,6 @@
         
       </form>
 
-      <label class="mx-2 fw-bold"  for="birthday">Date:</label>
-<input class="mt-5" type="date" id="birthday" name="birthday">
 </div>
 
 <div class="container-fluid bg-light overflow-hidden px-lg-0" style="margin: 6rem 0;">
@@ -102,12 +101,25 @@
                                     <label for="email">Your Email</label>
                                 </div>
                             </div>
-                            <div class="col-12">
-                                <div class="form-floating">
-                                    <input type="text" class="form-control" id="subject" placeholder="Subject">
-                                    <label for="subject">Subject</label>
+                            <div class="col-md-6">
+                                <div class="">
+                                    <label class="mx-2 fw-bold"  for="Photo Year">Date:</label>
+                                    <input class="" type="date" id="Photo Year" name="Photo Year">
                                 </div>
                             </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="email" class="form-control" id="email" placeholder="Your Email">
+                                    <label for="email">Photo Age</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                            <select class="Gender" name="Gender" required>
+                                <option value="" disabled selected>Select his/her Gender</option>
+                                <option value="Male">Male</option>
+                                <option value="Female">Female</option>
+                            </select>
+                        </div>
                             <div class="col-12">
                                 <div class="form-floating">
                                     <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 100px"></textarea>
